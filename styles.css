@@ -1,0 +1,444 @@
+.style-body {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    width: 1140px;
+    margin: 0 auto;
+}
+/*header--------------------------------------------------------------------------------------------------------------*/
+.header {
+    background: url(images/background/computer.png) no-repeat center top;
+    height: 650px;
+}
+.foliaclogo {
+    margin-top: 36px;
+    float: left;
+}
+.style-nav {
+    float: right;
+    margin-top: 77px;
+}
+.list-none {
+    list-style-image: none;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 70px;
+}
+.symbol-nav {
+    list-style-image: none;
+    float: left;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+ a.Accueil, a.Portfolio, a.About, a.Contact  {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+.voici_votre {
+    font-size: 46px;
+    font-family: "Arial Black", cursive;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 15px;
+    width: 100%;
+    float: left;
+}
+.un_template {
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.button-header {
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.Rectangle_arrondi {
+    background-color: transparent;
+    border: 2px solid rgb(72, 191, 114);
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    color: rgb(72, 191, 114);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2.2;
+    text-align: center;
+    width: 134px;
+    height: 35px;
+    cursor: pointer;
+}
+/*main----------------------------------------------------------------------------------------------------------------*/
+#main {
+    position: absolute;
+    left: 0;
+    top: 651px;
+    width: 1920px;
+    height: 1050px;
+    z-index: 0;
+}
+/* Buttons -----------------------------------------------------------------------------------------------------------*/
+div#main a.Webdesign, div#main a.UI_UX_design, div#main a.Illustration, div#main a.Motion_design {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+}
+.Rectangle_arrondi_b2, .Rectangle_arrondi_b3, .Rectangle_arrondi_b4, .Rectangle_arrondi_b5 {
+    border-radius: 2px;
+    background-color: rgb(234, 234, 234);
+    top: 50px;
+    height: 32px;
+}
+.Tous_les_projets {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    left: 637px;
+    top: 57px;
+    z-index: 143;
+}
+.Rectangle_arrondi_b1 {
+    border-radius: 2px;
+    background-color: rgb(72, 191, 114);
+    position: absolute;
+    left: 628px;
+    top: 50px;
+    width: 137px;
+    height: 32px;
+    z-index: 142;
+}
+.Webdesign {
+    position: absolute;
+    left: 792px;
+    top: 57px;
+    z-index: 101;
+}
+.Rectangle_arrondi_b2 {
+    position: absolute;
+    left: 774px;
+    width: 111px;
+    z-index: 100;
+}
+.UI_UX_design {
+    position: absolute;
+    left: 913px;
+    top: 57px;
+    z-index: 105;
+}
+.Rectangle_arrondi_b3 {
+    position: absolute;
+    left: 899px;
+    width: 125px;
+    z-index: 104;
+}
+.Illustration {
+    position: absolute;
+    left: 1058px;
+    top: 57px;
+    z-index: 109;
+}
+.Rectangle_arrondi_b4 {
+    position: absolute;
+    left: 1040px;
+    width: 109px;
+    z-index: 108;
+}
+.Motion_design {
+    position: absolute;
+    left: 1176px;
+    top: 57px;
+    z-index: 113;
+}
+.Rectangle_arrondi_b5 {
+    position: absolute;
+    left: 1161px;
+    width: 132px;
+    z-index: 112;
+}
+/* Items -------------------------------------------------------------------------------------------------------------*/
+.Item1 {
+    position: absolute;
+    left: 390px;
+    top: 133px;
+    width: 450px;
+    height: 302px;
+    z-index: 77;
+}
+.Item2 {
+    border-radius: 10px;
+    background-color: #c9dce3;
+    position: absolute;
+    left: 880px;
+    top: 133px;
+    width: 650px;
+    height: 438px;
+    z-index: 81;
+}
+.Item3  {
+    position: absolute;
+    left: 390px;
+    top: 475px;
+    width: 450px;
+    height: 486px;
+    z-index: 88;
+}
+.Item4 {
+    border-radius: 10px;
+    background-color: #383644;
+    position: absolute;
+    left: 880px;
+    top: 611px;
+    width: 650px;
+    height: 350px;
+    z-index: 92;
+}
+.depth {
+    position: absolute;
+    left: 91px;
+    top: 20px;
+    width: 468px;
+    height: 350px;
+    z-index: 93;
+}
+/*  About ------------------------------------------------------------------------------------------------------------*/
+.About_M_D {
+    position: absolute;
+    left: 0;
+    top: 1701px;
+    width: 1920px;
+    height: 500px;
+    z-index: 0;
+}
+.men_computer {
+    background-image: url(images/background/men-computer.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 500px;
+    z-index: 63;
+}
+.Michel_Dupont {
+    font-size: 30px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    left: 979px;
+    top: 114px;
+    z-index: 70;
+}
+.Webdesigner {
+    font-size: 22px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    line-height: 1;
+    font-stretch: condensed;
+    position: absolute;
+    left: 979px;
+    top: 149px;
+    z-index: 71;
+}
+.Lorem_ipsum {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    position: absolute;
+    left: 979px;
+    top: 204px;
+    width: 430px;
+    height: 139px;
+    z-index: 70;
+}
+.ghost_btn {
+    font-size: 14px;
+    font-family: "LATHA";
+    color: rgb(60, 73, 85);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.2;
+    background-color: transparent;
+    border: 2px solid rgb(60,73,85);
+    border-radius: 3px;
+    position: absolute;
+    left: 979px;
+    top: 370px;
+    width: 148px;
+    height: 35px;
+    z-index: 67;
+}
+/* Contact -----------------------------------------------------------------------------------------------------------*/
+#Contact_footer {
+    position: absolute;
+    left: 0;
+    top: 2202px;
+    width: 1920px;
+    height: 568px;
+    z-index: 22;
+}
+h2 {
+    font-size: 26px;
+    font-family: "Arial Black";
+    text-transform: uppercase;
+    color: rgb(72, 191, 114);
+    line-height: 0.962;
+    position: absolute;
+    left: 835px;
+    top: 35px;
+    z-index: 23;
+}
+.contact_form {
+    position: absolute;
+    top: 134px;
+    left: 610px;
+}
+.contact_form_nom, .contact_form_mail, .contact_form_message {
+    border: 1px solid rgb(60, 73, 85);
+    border-radius: 3px;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(166, 165, 165);
+    font-weight: bold;
+    text-indent: 1em;
+}
+.contact_form_nom {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_mail {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_message {
+    line-height: 2.6;
+    height: 222px;
+    width: 623px;
+}
+.contact_form_submit {
+    height:50px;
+    width:690px;
+    background: #33cc66;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+/*  Footer  ----------------------------------------------------------------------------------------------------------*/
+.Footer {
+    position: absolute;
+    left: 0;
+    top: 2767px;
+    width: 1920px;
+    height: 201px;
+    z-index: 23;
+}
+.background_footer {
+    background-color: rgb(60, 73, 85);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 201px;
+    z-index: 3;
+}
+.Copyright_beneggen {
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    text-decoration: none;
+    position: absolute;
+    left: 391px;
+    top: 113px;
+    z-index: 7;
+}
+.mendeleev {
+    font-size: 22px;
+    font-family: "LATHA";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-decoration: none;
+    position: absolute;
+    left: 391px;
+    top: 73px;
+    z-index: 23;
+}
+.twitter {
+    background: url(images/icon/social.png) 0 55px;
+    height: 55px;
+    width: 50px;
+    position: absolute;
+    left: 1227px;
+    top: 80px;
+    z-index: 7;
+}
+.linkedin {
+    background: url(images/icon/social.png) -90px 55px;
+    height: 55px;
+    width: 50px;
+    position: absolute;
+    left: 1316px;
+    top: 80px;
+    z-index: 7;
+}
+.dribbble {
+    background: url(images/icon/social.png) -177px 55px;
+    height: 55px;
+    width: 52px;
+    position: absolute;
+    left: 1404px;
+    top: 80px;
+    z-index: 7;
+}
+.behance {
+    background: url(images/icon/social.png) -266px 55px;
+    height: 55px;
+    width: 50px;
+    position: absolute;
+    left: 1495px;
+    top: 80px;
+    z-index: 7;
+}
