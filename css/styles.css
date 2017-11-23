@@ -1,0 +1,395 @@
+.style-body {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    width: 1140px;
+    margin: 0 auto;
+}
+/*header--------------------------------------------------------------------------------------------------------------*/
+.header {
+    background-color: #3c4955;
+    height: 650px;
+    position: relative;
+}
+.background_transparent {
+    opacity: 0.14;
+    position: absolute;
+}
+.header .content {
+    position: relative;
+}
+.foliaclogo {
+    margin-top: 36px;
+    float: left;
+}
+.style-nav {
+    float: right;
+    margin-top: 77px;
+}
+.style-nav li a:hover {
+    color: #48bf72;
+}
+.list-none {
+    list-style-image: none;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 70px;
+}
+.symbol-nav {
+    list-style-image: none;
+    float: left;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #646d75;
+    font-weight: bold;
+}
+.style-nav a {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+.voici_votre {
+    font-size: 46px;
+    font-family: "Arial Black", cursive;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 15px;
+    width: 100%;
+    float: left;
+}
+.un_template {
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.button-header {
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.Rectangle_arrondi {
+    background-color: transparent;
+    border: 2px solid #48bf72;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    color: #48bf72;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2.2;
+    text-align: center;
+    width: 134px;
+    height: 35px;
+    cursor: pointer;
+}
+.Rectangle_arrondi:hover{
+    box-shadow: 5px 4px 25px 2px rgba(0,0,0,0.5);
+    border: 2px solid ;
+}
+/*main----------------------------------------------------------------------------------------------------------------*/
+#my_work {
+    height: 1050px;
+}
+.my_work_menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* Buttons -----------------------------------------------------------------------------------------------------------*/
+#my_work a{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: #3c4955;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: #eaeaea;
+    height: 32px;
+    margin: 0 1em 0 1em;
+}/*
+.Rectangle_arrondi_b2, .Rectangle_arrondi_b3, .Rectangle_arrondi_b4, .Rectangle_arrondi_b5 {
+    border-radius: 2px;
+    background-color: #eaeaea;
+    height: 32px;
+    margin: 0 1em 0 1em;
+}*/
+#my_work div div div:hover{
+    background-color: #48bf72;
+    border-radius: 2px;
+    text-align: center;
+}/*
+.Tous_les_projets {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: #3c4955;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+
+}
+.Rectangle_arrondi_b1 {
+    border-radius: 2px;
+    background-color: #eaeaea;
+    left: 628px;
+    top: 50px;
+    width: 137px;
+    height: 32px;
+    z-index: 142;
+}
+.Webdesign {
+    left: 792px;
+    top: 57px;
+}
+.Rectangle_arrondi_b2 {
+    left: 774px;
+    width: 111px;
+}
+.UI_UX_design {
+    left: 913px;
+    top: 57px;
+}
+.Rectangle_arrondi_b3 {
+    left: 899px;
+    width: 125px;
+}
+.Illustration {
+    left: 1058px;
+    top: 57px;
+}
+.Rectangle_arrondi_b4 {
+    left: 1040px;
+    width: 109px;
+}
+.Motion_design {
+    left: 1176px;
+    top: 57px;
+    z-index: 113;
+}
+ {
+    left: 1161px;
+    width: 132px;
+    z-index: 112;
+}*/
+/* Items -------------------------------------------------------------------------------------------------------------*/
+ {
+    left: 390px;
+    top: 133px;
+    width: 450px;
+    height: 302px;
+    z-index: 77;
+}
+ {
+    border-radius: 10px;
+    background-color: #c9dce3;
+    left: 880px;
+    top: 133px;
+    width: 650px;
+    height: 438px;
+    z-index: 81;
+}
+  {
+    left: 390px;
+    top: 475px;
+    width: 450px;
+    height: 486px;
+    z-index: 88;
+}
+ {
+    border-radius: 10px;
+    background-color: #383644;
+    left: 880px;
+    top: 611px;
+    width: 650px;
+    height: 350px;
+    z-index: 92;
+}
+.depth {
+    left: 91px;
+    top: 20px;
+    width: 468px;
+    height: 350px;
+    z-index: 93;
+}
+/*  About ------------------------------------------------------------------------------------------------------------*/
+.about_author {
+    background-color: #3c4955;
+    height: 500px;
+}
+.men_computer {
+    background-image: url(../images/background/men-computer.png);
+}
+.men_computer_transparent {
+    opacity: 0.27;
+    position: absolute;
+}
+.name_author {
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 92px;
+    margin-left: 50%;
+}
+.profession_author {
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    line-height: 1;
+    font-stretch: ultra-condensed;
+    margin-left: 50%;
+    margin-top: 15px;
+}
+.text_author {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    font-stretch: ultra-condensed;
+    margin-left: 50%;
+    margin-top: 40px;
+    width: 450px;
+    height: 148px;
+}
+.ghost_btn {
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    color: #3c4955;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.2;
+    background-color: transparent;
+    border: 2px solid #3c4955;
+    border-radius: 3px;
+    margin-left: 50%;
+    margin-top: 35px;
+    width: 148px;
+    height: 40px;
+    position: relative;
+}
+.ghost_btn:hover{
+    box-shadow: 5px 4px 25px 2px rgba(0,0,0,0.5);
+    border: 2px solid ;
+}
+/* Contact -----------------------------------------------------------------------------------------------------------*/
+#contact_footer {
+    height: 570px;
+}
+.contact_title {
+    font-size: 26px;
+    font-family: "Arial Black",cursive;
+    text-transform: uppercase;
+    color: #48bf72;
+    text-align: center;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    display: inherit;
+}
+.contact_form {
+    margin: auto;
+}
+.contact_form_nom, .contact_form_mail, .contact_form_message {
+    border: 1px solid #3c4955;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: #a5a5a5;
+    font-weight: bold;
+    text-indent: 1em;
+}
+.contact_form_nom {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_mail {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_message {
+    line-height: 2.6;
+    height: 222px;
+    width: 623px;
+}
+.contact_form_submit {
+    height:50px;
+    width:690px;
+    background: #33cc66;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*  Footer  ----------------------------------------------------------------------------------------------------------*/
+.Footer {
+    height: 201px;
+    background-color: #3c4955;
+}
+.Copyright_beneggen {
+    float: left;
+    margin-top: 90px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    text-decoration: none;
+}
+.style-soc {
+    float: right;
+    margin-top: 77px;
+    display: inline-block;
+}
+.style-soc a {
+    float: left;
+    margin-left: 50px;
+    height: 55px;
+    width: 50px;
+}
+.style-soc a:hover {
+    transform: rotate(20deg);
+}
+.twitter {
+    background: url(../images/icon/social.png) 0 55px;
+}
+.linkedin {
+    background: url(../images/icon/social.png) -90px 55px;
+}
+.dribbble {
+    background: url(../images/icon/social.png) -177px 55px;
+}
+.behance {
+    background: url(../images/icon/social.png) -266px 55px;
+}
