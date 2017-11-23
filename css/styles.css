@@ -6,25 +6,29 @@
     width: 1140px;
     margin: 0 auto;
 }
+.align_content {
+    width: 100%;
+    text-align: center;
+}
+.displey_block {
+    display: block;
+}
 /*header--------------------------------------------------------------------------------------------------------------*/
 .header {
     background-color: #3c4955;
     height: 650px;
-    position: relative;
+    
 }
 .background_transparent {
     opacity: 0.14;
-    position: absolute;
 }
 .header .content {
-    position: relative;
+    
 }
 .foliaclogo {
     margin-top: 36px;
-    float: left;
 }
 .style-nav {
-    float: right;
     margin-top: 77px;
 }
 .style-nav li a:hover {
@@ -32,14 +36,12 @@
 }
 .list-none {
     list-style-image: none;
-    float: left;
     display: block;
     text-align: center;
     width: 70px;
 }
 .symbol-nav {
     list-style-image: none;
-    float: left;
     display: block;
     margin-left: 40px;
     margin-right: 40px;
@@ -65,7 +67,6 @@
     margin-top: 140px;
     margin-bottom: 15px;
     width: 100%;
-    float: left;
 }
 .un_template {
     font-size: 30px;
@@ -76,11 +77,9 @@
     line-height: 1.4;
     text-align: center;
     width: 100%;
-    float: left;
 }
 .button-header {
     margin-top: 40px;
-    float: left;
     width: 100%;
     text-align: center;
 }
@@ -104,6 +103,9 @@
     box-shadow: 5px 4px 25px 2px rgba(0,0,0,0.5);
     border: 2px solid ;
 }
+.header audio {
+    margin-top: 2em;
+}
 /*main----------------------------------------------------------------------------------------------------------------*/
 #my_work {
     height: 1050px;
@@ -113,8 +115,11 @@
     justify-content: center;
     margin-top: 50px;
 }
+.my_work_items {
+    margin-top: 50px;
+}
 /* Buttons -----------------------------------------------------------------------------------------------------------*/
-#my_work a{
+#my_work .my_work_menu a{
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     color: #3c4955;
@@ -125,111 +130,45 @@
     border-radius: 2px;
     background-color: #eaeaea;
     height: 32px;
+    padding: 0 1em 0 1em;
     margin: 0 1em 0 1em;
-}/*
-.Rectangle_arrondi_b2, .Rectangle_arrondi_b3, .Rectangle_arrondi_b4, .Rectangle_arrondi_b5 {
-    border-radius: 2px;
-    background-color: #eaeaea;
-    height: 32px;
-    margin: 0 1em 0 1em;
-}*/
-#my_work div div div:hover{
+}
+#my_work a:hover{
     background-color: #48bf72;
     border-radius: 2px;
     text-align: center;
-}/*
-.Tous_les_projets {
-    font-size: 16px;
-    font-family: 'Karla', sans-serif;
-    color: #3c4955;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    text-decoration: none;
-
 }
-.Rectangle_arrondi_b1 {
-    border-radius: 2px;
-    background-color: #eaeaea;
-    left: 628px;
-    top: 50px;
-    width: 137px;
-    height: 32px;
-    z-index: 142;
-}
-.Webdesign {
-    left: 792px;
-    top: 57px;
-}
-.Rectangle_arrondi_b2 {
-    left: 774px;
-    width: 111px;
-}
-.UI_UX_design {
-    left: 913px;
-    top: 57px;
-}
-.Rectangle_arrondi_b3 {
-    left: 899px;
-    width: 125px;
-}
-.Illustration {
-    left: 1058px;
-    top: 57px;
-}
-.Rectangle_arrondi_b4 {
-    left: 1040px;
-    width: 109px;
-}
-.Motion_design {
-    left: 1176px;
-    top: 57px;
-    z-index: 113;
-}
- {
-    left: 1161px;
-    width: 132px;
-    z-index: 112;
-}*/
 /* Items -------------------------------------------------------------------------------------------------------------*/
- {
-    left: 390px;
-    top: 133px;
+.multiple_items {
     width: 450px;
     height: 302px;
-    z-index: 77;
+    margin-bottom: 40px;
 }
- {
-    border-radius: 10px;
-    background-color: #c9dce3;
-    left: 880px;
-    top: 133px;
-    width: 650px;
-    height: 438px;
-    z-index: 81;
-}
-  {
-    left: 390px;
-    top: 475px;
+.application_mobile {
+    border-radius: 20px;
     width: 450px;
     height: 486px;
-    z-index: 88;
+    background-color: #48bf72;
 }
- {
+.application_mobile img:hover {
+    opacity: 0.14;
+}
+.office_supplies  {
+    width: 650px;
+    height: 438px;
+    margin-bottom: 40px;
+}
+.item_list {
     border-radius: 10px;
     background-color: #383644;
-    left: 880px;
-    top: 611px;
     width: 650px;
     height: 350px;
-    z-index: 92;
 }
 .depth {
-    left: 91px;
-    top: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
     width: 468px;
     height: 350px;
-    z-index: 93;
 }
 /*  About ------------------------------------------------------------------------------------------------------------*/
 .about_author {
@@ -241,7 +180,6 @@
 }
 .men_computer_transparent {
     opacity: 0.27;
-    position: absolute;
 }
 .name_author {
     font-size: 30px;
@@ -289,7 +227,7 @@
     margin-top: 35px;
     width: 148px;
     height: 40px;
-    position: relative;
+    
 }
 .ghost_btn:hover{
     box-shadow: 5px 4px 25px 2px rgba(0,0,0,0.5);
@@ -359,7 +297,6 @@
     background-color: #3c4955;
 }
 .Copyright_beneggen {
-    float: left;
     margin-top: 90px;
     font-size: 16px;
     font-family: 'Karla', sans-serif;
@@ -368,12 +305,10 @@
     text-decoration: none;
 }
 .style-soc {
-    float: right;
     margin-top: 77px;
     display: inline-block;
 }
 .style-soc a {
-    float: left;
     margin-left: 50px;
     height: 55px;
     width: 50px;

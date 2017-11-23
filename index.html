@@ -6,66 +6,59 @@
     <title>foliac</title>
     <link href="https://fonts.googleapis.com/css?family=Karla|Poiret+One" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/position.css" rel="stylesheet" type="text/css">
 </head>
 <body class="style-body">
-    <audio autoplay>
-        <source src="sounds/battle city.ogg" type='audio/ogg; codecs=vorbis'>
-        <source src="sounds/battle city.mp3" type="audio/mpeg">
-    </audio>
-    <div class="header">
-        <img class="background_transparent" src="images/background/computer.png" alt="background">
-        <div class="content">
-            <a class="foliaclogo" href="index.html"><img src="images/icon/foliaclogo.png" alt="foliaclogo"></a>
-            <nav class="style-nav">
+    <div class="header position-relative">
+        <img class="background_transparent position-absolute" src="images/background/computer.png" alt="background">
+        <div class="content position-relative">
+            <a class="foliaclogo float-left" href="index.html"><img src="images/icon/foliaclogo.png" alt="foliaclogo"></a>
+            <nav class="style-nav float-right">
                 <ul>
-                    <li class="list-none"><a class="Accueil" href="Accueil.html">Accueil</a></li>
-                    <li class="symbol-nav">/</li>
-                    <li class="list-none"><a class="About" href="About.html">About</a></li>
-                    <li class="symbol-nav">/</li>
-                    <li class="list-none"><a class="Portfolio" href="Portfolio.html">Portfolio</a></li>
-                    <li class="symbol-nav">/</li>
-                    <li class="list-none"><a class="Contact" href="Contact.html">Contact</a></li>
+                    <li class="list-none float-left"><a class="Accueil" href="Accueil.html">Accueil</a></li>
+                    <li class="symbol-nav float-left">/</li>
+                    <li class="list-none float-left"><a class="About" href="About.html">About</a></li>
+                    <li class="symbol-nav float-left">/</li>
+                    <li class="list-none float-left"><a class="Portfolio" href="Portfolio.html">Portfolio</a></li>
+                    <li class="symbol-nav float-left">/</li>
+                    <li class="list-none float-left"><a class="Contact" href="Contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <h1 class="voici_votre">voici votre prochain portfolio</h1>
-            <div class="un_template">un template psd simple et gratuit</div>
-            <a class="button-header" href="#my_work">
+            <h1 class="voici_votre float-left">voici votre prochain portfolio</h1>
+            <div class="un_template float-left">un template psd simple et gratuit</div>
+            <a class="button-header float-left" href="#my_work">
                 <button class="Rectangle_arrondi">mes travaux</button>
             </a>
+            <audio class="float-left align_content" controls>
+                <source src="sounds/battle city.ogg" type='audio/ogg; codecs=vorbis'>
+                <source src="sounds/battle city.mp3" type="audio/mpeg">
+            </audio>
         </div>
     </div>
     <div id="my_work">
         <div class="content">
             <div class="my_work_menu">
-                <a class="Tous_les_projets" href="Tous_les_projets.html">
-                    <div class="Rectangle_arrondi_b1">Tous les projets</div>
-                </a>
-                <a class="Webdesign" href="Webdesign.html">
-                    <div class="Rectangle_arrondi_b2">Webdesign</div>
-                </a>
-                <a class="UI_UX_design" href="UI_UX_design.html">
-                    <div class="Rectangle_arrondi_b3">UI/UX design</div>
-                </a>
-                <a class="Illustration" href="Illustration.html">
-                    <div class="Rectangle_arrondi_b4">Illustration</div>
-                </a>
-                <a class="Motion_design" href="Motion_design.html">
-                    <div class="Rectangle_arrondi_b5">Motion design</div>
-                </a>
+                <a href="Tous_les_projets.html">Tous les projets</a>
+                <a href="Webdesign.html">Webdesign</a>
+                <a href="UI_UX_design.html">UI/UX design</a>
+                <a class="Illustration" href="Illustration.html">Illustration</a>
+                <a class="Motion_design" href="Motion_design.html">Motion design</a>
             </div>
-                <div class="Item1"><img src="images/Item1.png" alt="multiple items"></div>
-                <div class="Item2"><img src="images/Item2.png" alt="office supplies"></div>
-                <div class="Item3"><a href="Forest_app_application_mobile.html"><img src="images/Item3.png" alt="mobile phone"></a></div>
-                <div class="Item4"><img class="depth" src="images/Item4.png" alt="prototype"></div>
+            <div class="my_work_items">
+                <div class="multiple_items float-left"><img src="images/Item1.png" alt="multiple items"></div>
+                <div class="office_supplies float-right"><img src="images/Item2.png" alt="office supplies"></div>
+                <div class="application_mobile float-left"><a class="displey_block" href="Forest_app.html"><img src="images/app.png" alt="application_mobile"></a></div>
+                <div class="item_list float-right"><img class="depth" src="images/Item4.png" alt="prototype"></div>
+            </div>
         </div>
     </div>
     <div class="about_author">
-        <img class="men_computer_transparent" src="images/background/men-computer.png" alt="background">
+        <img class="men_computer_transparent position-absolute" src="images/background/men-computer.png" alt="background">
         <div class="name_author">Michel Dupont</div>
         <div class="profession_author">Webdesigner, illustrateur, auteur</div>
         <div class="text_author">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
         <a href="#contact_footer">
-            <button class="ghost_btn">me contacter</button>
+            <button class="ghost_btn position-relative">me contacter</button>
         </a>
     </div>
     <div id="contact_footer">
@@ -119,12 +112,12 @@
     </div>
     <div class="Footer">
         <div class="content">
-            <a class="Copyright_beneggen" href="http://www.beneggen.fr">Copyright &#169; 2015 by beneggen - www.beneggen.fr</a>
-            <div class="style-soc">
-                <a class="twitter" href="https://www.twitter.com" title="www.twitter.com"></a>
-                <a class="linkedin" href="https://www.linkedin.com" title="www.linkedin.com"></a>
-                <a class="dribbble" href="https://www.dribbble.com" title="www.dribbble.com"></a>
-                <a class="behance" href="https://www.behance.net" title="www.behance.net"></a>
+            <a class="Copyright_beneggen float-left" href="http://www.beneggen.fr">Copyright &#169; 2015 by beneggen - www.beneggen.fr</a>
+            <div class="style-soc float-right">
+                <a class="twitter float-left" href="https://www.twitter.com" title="www.twitter.com"></a>
+                <a class="linkedin float-left" href="https://www.linkedin.com" title="www.linkedin.com"></a>
+                <a class="dribbble float-left" href="https://www.dribbble.com" title="www.dribbble.com"></a>
+                <a class="behance float-left" href="https://www.behance.net" title="www.behance.net"></a>
             </div>
         </div>
     </div>
